@@ -1,0 +1,2 @@
+/usr/bin/mips64el-linux-gnuabi64-ar qc libcjson.a CMakeFiles/cjson.dir/cJSON.c.o
+/usr/bin/mips64el-linux-gnuabi64-ranlib libcjson.a

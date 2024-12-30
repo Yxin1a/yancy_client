@@ -1,0 +1,7 @@
+/home/tq/桌面/net_wipe_network/net_wipe/release/x86_64/kylinV10/include/cjson/cJSON.h
+/home/tq/桌面/net_wipe_network/net_wipe/release/x86_64/kylinV10/lib/pkgconfig/libcjson.pc
+/home/tq/桌面/net_wipe_network/net_wipe/release/x86_64/kylinV10/lib/libcjson.a
+/home/tq/桌面/net_wipe_network/net_wipe/release/x86_64/kylinV10/lib/cmake/cJSON/cjson.cmake
+/home/tq/桌面/net_wipe_network/net_wipe/release/x86_64/kylinV10/lib/cmake/cJSON/cjson-noconfig.cmake
+/home/tq/桌面/net_wipe_network/net_wipe/release/x86_64/kylinV10/lib/cmake/cJSON/cJSONConfig.cmake
+/home/tq/桌面/net_wipe_network/net_wipe/release/x86_64/kylinV10/lib/cmake/cJSON/cJSONConfigVersion.cmake

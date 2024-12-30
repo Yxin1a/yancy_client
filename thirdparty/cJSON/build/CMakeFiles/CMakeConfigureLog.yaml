@@ -1,0 +1,1148 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Linux - 4.4.131-20210120.kylin.x86-generic - x86_64
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Linux - 4.4.131-20210120.kylin.x86-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/mips64el-linux-gnuabi64-gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/3.30.5/CompilerIdC/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-LIp10t"
+      binary: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-LIp10t"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-LIp10t'
+        
+        Run Build Command(s): /opt/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_009f9/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_009f9.dir/build.make CMakeFiles/cmTC_009f9.dir/build
+        make[1]: Entering directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-LIp10t'
+        Building C object CMakeFiles/cmTC_009f9.dir/CMakeCCompilerABI.c.o
+        /usr/bin/mips64el-linux-gnuabi64-gcc   -v -o CMakeFiles/cmTC_009f9.dir/CMakeCCompilerABI.c.o -c /opt/cmake/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/mips64el-linux-gnuabi64-gcc
+        Target: mips64el-linux-gnuabi64
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libsanitizer --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-mips64el-cross/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-mips64el-cross --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-mips64el-cross --with-arch-directory=mips --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libgcj --enable-objc-gc --enable-multiarch --disable-werror --enable-multilib --with-mips-plt --with-arch-64=mips64r2 --enable-targets=all --with-arch-32=mips32r2 --with-fp-32=xx --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=mips64el-linux-gnuabi64 --program-prefix=mips64el-linux-gnuabi64- --includedir=/usr/mips64el-linux-gnuabi64/include
+        Thread model: posix
+        gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_009f9.dir/CMakeCCompilerABI.c.o' '-c' '-march=mips64r2' '-mllsc' '-mplt' '-mips64r2' '-mno-shared' '-EL' '-mabi=64'
+         /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/cc1 -quiet -v -imultiarch mips64el-linux-gnuabi64 /opt/cmake/share/cmake-3.30/Modules/CMakeCCompilerABI.c -mel -quiet -dumpbase CMakeCCompilerABI.c -march=mips64r2 -mllsc -mplt -mips64r2 -mno-shared -mabi=64 -auxbase-strip CMakeFiles/cmTC_009f9.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccqWULez.s
+        GNU C11 (Ubuntu 5.4.0-6ubuntu1~16.04.9) version 5.4.0 20160609 (mips64el-linux-gnuabi64)
+        	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/mips64el-linux-gnuabi64"
+        ignoring nonexistent directory "/usr/include/mips64el-linux-gnuabi64"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/include
+         /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/include-fixed
+         /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/include
+         /usr/include
+        End of search list.
+        GNU C11 (Ubuntu 5.4.0-6ubuntu1~16.04.9) version 5.4.0 20160609 (mips64el-linux-gnuabi64)
+        	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 6c31d08cd832f81b5634903ec8cfee23
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_009f9.dir/CMakeCCompilerABI.c.o' '-c' '-march=mips64r2' '-mllsc' '-mplt' '-mips64r2' '-mno-shared' '-EL' '-mabi=64'
+         /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/bin/as -v -EL -mips64r2 -O1 -no-mdebug -mabi=64 -march=mips64r2 -mno-shared -call_nonpic -o CMakeFiles/cmTC_009f9.dir/CMakeCCompilerABI.c.o /tmp/ccqWULez.s
+        GNU assembler version 2.26.1 (mips64el-linux-gnuabi64) using BFD version (GNU Binutils for Ubuntu) 2.26.1
+        COMPILER_PATH=/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/:/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/:/usr/lib/gcc-cross/mips64el-linux-gnuabi64/:/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/:/usr/lib/gcc-cross/mips64el-linux-gnuabi64/:/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/bin/
+        LIBRARY_PATH=/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/:/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_009f9.dir/CMakeCCompilerABI.c.o' '-c' '-march=mips64r2' '-mllsc' '-mplt' '-mips64r2' '-mno-shared' '-EL' '-mabi=64'
+        Linking C executable cmTC_009f9
+        /opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_009f9.dir/link.txt --verbose=1
+        /usr/bin/mips64el-linux-gnuabi64-gcc  -v -Wl,-v -rdynamic CMakeFiles/cmTC_009f9.dir/CMakeCCompilerABI.c.o -o cmTC_009f9
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/mips64el-linux-gnuabi64-gcc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/lto-wrapper
+        Target: mips64el-linux-gnuabi64
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libsanitizer --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-mips64el-cross/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-mips64el-cross --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-mips64el-cross --with-arch-directory=mips --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libgcj --enable-objc-gc --enable-multiarch --disable-werror --enable-multilib --with-mips-plt --with-arch-64=mips64r2 --enable-targets=all --with-arch-32=mips32r2 --with-fp-32=xx --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=mips64el-linux-gnuabi64 --program-prefix=mips64el-linux-gnuabi64- --includedir=/usr/mips64el-linux-gnuabi64/include
+        Thread model: posix
+        gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) 
+        COMPILER_PATH=/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/:/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/:/usr/lib/gcc-cross/mips64el-linux-gnuabi64/:/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/:/usr/lib/gcc-cross/mips64el-linux-gnuabi64/:/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/bin/
+        LIBRARY_PATH=/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/:/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_009f9' '-march=mips64r2' '-mllsc' '-mplt' '-mips64r2' '-mno-shared' '-EL' '-mabi=64'
+         /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/collect2 -plugin /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKDPmuE.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -EL -mips64r2 -as-needed -export-dynamic -dynamic-linker /lib64/ld.so.1 -melf64ltsmip -z relro -o cmTC_009f9 /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/../lib/crt1.o /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/../lib/crti.o /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/crtbegin.o -L/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5 -L/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib -v CMakeFiles/cmTC_009f9.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/crtend.o /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/../lib/crtn.o
+        collect2 version 5.4.0 20160609
+        /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/bin/ld -plugin /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKDPmuE.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -EL -mips64r2 -as-needed -export-dynamic -dynamic-linker /lib64/ld.so.1 -melf64ltsmip -z relro -o cmTC_009f9 /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/../lib/crt1.o /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/../lib/crti.o /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/crtbegin.o -L/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5 -L/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib -v CMakeFiles/cmTC_009f9.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/crtend.o /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/../lib/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.26.1
+        make[1]: Leaving directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-LIp10t'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/include]
+          add: [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/include-fixed]
+          add: [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/include] ==> [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/include]
+        collapse include dir [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/include-fixed] ==> [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/include-fixed]
+        collapse include dir [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/include] ==> [/usr/mips64el-linux-gnuabi64/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/include;/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/include-fixed;/usr/mips64el-linux-gnuabi64/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-LIp10t']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_009f9/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_009f9.dir/build.make CMakeFiles/cmTC_009f9.dir/build]
+        ignore line: [make[1]: Entering directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-LIp10t']
+        ignore line: [Building C object CMakeFiles/cmTC_009f9.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/mips64el-linux-gnuabi64-gcc   -v -o CMakeFiles/cmTC_009f9.dir/CMakeCCompilerABI.c.o -c /opt/cmake/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/mips64el-linux-gnuabi64-gcc]
+        ignore line: [Target: mips64el-linux-gnuabi64]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c ada c++ java go d fortran objc obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libsanitizer --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-mips64el-cross/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-mips64el-cross --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-mips64el-cross --with-arch-directory=mips --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libgcj --enable-objc-gc --enable-multiarch --disable-werror --enable-multilib --with-mips-plt --with-arch-64=mips64r2 --enable-targets=all --with-arch-32=mips32r2 --with-fp-32=xx --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=mips64el-linux-gnuabi64 --program-prefix=mips64el-linux-gnuabi64- --includedir=/usr/mips64el-linux-gnuabi64/include]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_009f9.dir/CMakeCCompilerABI.c.o' '-c' '-march=mips64r2' '-mllsc' '-mplt' '-mips64r2' '-mno-shared' '-EL' '-mabi=64']
+        ignore line: [ /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/cc1 -quiet -v -imultiarch mips64el-linux-gnuabi64 /opt/cmake/share/cmake-3.30/Modules/CMakeCCompilerABI.c -mel -quiet -dumpbase CMakeCCompilerABI.c -march=mips64r2 -mllsc -mplt -mips64r2 -mno-shared -mabi=64 -auxbase-strip CMakeFiles/cmTC_009f9.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccqWULez.s]
+        ignore line: [GNU C11 (Ubuntu 5.4.0-6ubuntu1~16.04.9) version 5.4.0 20160609 (mips64el-linux-gnuabi64)]
+        ignore line: [	compiled by GNU C version 5.4.0 20160609  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/mips64el-linux-gnuabi64"]
+        ignore line: [ignoring nonexistent directory "/usr/include/mips64el-linux-gnuabi64"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/include]
+        ignore line: [ /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/include-fixed]
+        ignore line: [ /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C11 (Ubuntu 5.4.0-6ubuntu1~16.04.9) version 5.4.0 20160609 (mips64el-linux-gnuabi64)]
+        ignore line: [	compiled by GNU C version 5.4.0 20160609  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 6c31d08cd832f81b5634903ec8cfee23]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_009f9.dir/CMakeCCompilerABI.c.o' '-c' '-march=mips64r2' '-mllsc' '-mplt' '-mips64r2' '-mno-shared' '-EL' '-mabi=64']
+        ignore line: [ /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/bin/as -v -EL -mips64r2 -O1 -no-mdebug -mabi=64 -march=mips64r2 -mno-shared -call_nonpic -o CMakeFiles/cmTC_009f9.dir/CMakeCCompilerABI.c.o /tmp/ccqWULez.s]
+        ignore line: [GNU assembler version 2.26.1 (mips64el-linux-gnuabi64) using BFD version (GNU Binutils for Ubuntu) 2.26.1]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/:/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/:/usr/lib/gcc-cross/mips64el-linux-gnuabi64/:/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/:/usr/lib/gcc-cross/mips64el-linux-gnuabi64/:/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/bin/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/:/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_009f9.dir/CMakeCCompilerABI.c.o' '-c' '-march=mips64r2' '-mllsc' '-mplt' '-mips64r2' '-mno-shared' '-EL' '-mabi=64']
+        ignore line: [Linking C executable cmTC_009f9]
+        ignore line: [/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_009f9.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/mips64el-linux-gnuabi64-gcc  -v -Wl -v -rdynamic CMakeFiles/cmTC_009f9.dir/CMakeCCompilerABI.c.o -o cmTC_009f9]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/mips64el-linux-gnuabi64-gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/lto-wrapper]
+        ignore line: [Target: mips64el-linux-gnuabi64]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c ada c++ java go d fortran objc obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libsanitizer --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-mips64el-cross/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-mips64el-cross --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-mips64el-cross --with-arch-directory=mips --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libgcj --enable-objc-gc --enable-multiarch --disable-werror --enable-multilib --with-mips-plt --with-arch-64=mips64r2 --enable-targets=all --with-arch-32=mips32r2 --with-fp-32=xx --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=mips64el-linux-gnuabi64 --program-prefix=mips64el-linux-gnuabi64- --includedir=/usr/mips64el-linux-gnuabi64/include]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/:/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/:/usr/lib/gcc-cross/mips64el-linux-gnuabi64/:/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/:/usr/lib/gcc-cross/mips64el-linux-gnuabi64/:/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/bin/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/:/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_009f9' '-march=mips64r2' '-mllsc' '-mplt' '-mips64r2' '-mno-shared' '-EL' '-mabi=64']
+        link line: [ /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/collect2 -plugin /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKDPmuE.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -EL -mips64r2 -as-needed -export-dynamic -dynamic-linker /lib64/ld.so.1 -melf64ltsmip -z relro -o cmTC_009f9 /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/../lib/crt1.o /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/../lib/crti.o /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/crtbegin.o -L/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5 -L/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib -v CMakeFiles/cmTC_009f9.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/crtend.o /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/../lib/crtn.o]
+          arg [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccKDPmuE.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--sysroot=/] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-EL] ==> ignore
+          arg [-mips64r2] ==> ignore
+          arg [-as-needed] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld.so.1] ==> ignore
+          arg [-melf64ltsmip] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_009f9] ==> ignore
+          arg [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/../lib/crt1.o] ==> obj [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/../lib/crt1.o]
+          arg [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/../lib/crti.o] ==> obj [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/../lib/crti.o]
+          arg [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/crtbegin.o] ==> obj [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/crtbegin.o]
+          arg [-L/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5] ==> dir [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5]
+          arg [-L/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/../lib] ==> dir [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/../lib]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib] ==> dir [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_009f9.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/crtend.o] ==> obj [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/crtend.o]
+          arg [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/../lib/crtn.o] ==> obj [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/../lib/crtn.o]
+        ignore line: [collect2 version 5.4.0 20160609]
+        ignore line: [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/bin/ld -plugin /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKDPmuE.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -EL -mips64r2 -as-needed -export-dynamic -dynamic-linker /lib64/ld.so.1 -melf64ltsmip -z relro -o cmTC_009f9 /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/../lib/crt1.o /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/../lib/crti.o /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/crtbegin.o -L/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5 -L/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib -v CMakeFiles/cmTC_009f9.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/crtend.o /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/../lib/crtn.o]
+        linker tool for 'C': /usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/bin/ld
+        collapse obj [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/../lib/crt1.o] ==> [/usr/mips64el-linux-gnuabi64/lib/crt1.o]
+        collapse obj [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/../lib/crti.o] ==> [/usr/mips64el-linux-gnuabi64/lib/crti.o]
+        collapse obj [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/../lib/crtn.o] ==> [/usr/mips64el-linux-gnuabi64/lib/crtn.o]
+        collapse library dir [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5] ==> [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5]
+        collapse library dir [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib/../lib] ==> [/usr/mips64el-linux-gnuabi64/lib]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/lib] ==> [/usr/mips64el-linux-gnuabi64/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/mips64el-linux-gnuabi64/lib/crt1.o;/usr/mips64el-linux-gnuabi64/lib/crti.o;/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/crtbegin.o;/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/crtend.o;/usr/mips64el-linux-gnuabi64/lib/crtn.o]
+        implicit dirs: [/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5;/usr/mips64el-linux-gnuabi64/lib;/lib;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/lib/gcc-cross/mips64el-linux-gnuabi64/5/../../../../mips64el-linux-gnuabi64/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.26.1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:103 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_stdc89"
+    directories:
+      source: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-5ppnQl"
+      binary: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-5ppnQl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "FLAG_SUPPORTED_stdc89"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-5ppnQl'
+        
+        Run Build Command(s): /opt/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_774c9/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_774c9.dir/build.make CMakeFiles/cmTC_774c9.dir/build
+        make[1]: Entering directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-5ppnQl'
+        Building C object CMakeFiles/cmTC_774c9.dir/src.c.o
+        /usr/bin/mips64el-linux-gnuabi64-gcc -DFLAG_SUPPORTED_stdc89  -std=c89 -o CMakeFiles/cmTC_774c9.dir/src.c.o -c /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-5ppnQl/src.c
+        Linking C executable cmTC_774c9
+        /opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_774c9.dir/link.txt --verbose=1
+        /usr/bin/mips64el-linux-gnuabi64-gcc -rdynamic CMakeFiles/cmTC_774c9.dir/src.c.o -o cmTC_774c9
+        make[1]: Leaving directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-5ppnQl'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:103 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_pedantic"
+    directories:
+      source: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-IbMUVd"
+      binary: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-IbMUVd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89"
+    buildResult:
+      variable: "FLAG_SUPPORTED_pedantic"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-IbMUVd'
+        
+        Run Build Command(s): /opt/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d8827/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_d8827.dir/build.make CMakeFiles/cmTC_d8827.dir/build
+        make[1]: Entering directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-IbMUVd'
+        Building C object CMakeFiles/cmTC_d8827.dir/src.c.o
+        /usr/bin/mips64el-linux-gnuabi64-gcc -DFLAG_SUPPORTED_pedantic  -std=c89    -pedantic -o CMakeFiles/cmTC_d8827.dir/src.c.o -c /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-IbMUVd/src.c
+        Linking C executable cmTC_d8827
+        /opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8827.dir/link.txt --verbose=1
+        /usr/bin/mips64el-linux-gnuabi64-gcc  -std=c89  -rdynamic CMakeFiles/cmTC_d8827.dir/src.c.o -o cmTC_d8827
+        make[1]: Leaving directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-IbMUVd'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:103 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wall"
+    directories:
+      source: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-TGDvh6"
+      binary: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-TGDvh6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wall"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-TGDvh6'
+        
+        Run Build Command(s): /opt/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6d070/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_6d070.dir/build.make CMakeFiles/cmTC_6d070.dir/build
+        make[1]: Entering directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-TGDvh6'
+        Building C object CMakeFiles/cmTC_6d070.dir/src.c.o
+        /usr/bin/mips64el-linux-gnuabi64-gcc -DFLAG_SUPPORTED_Wall  -std=c89 -pedantic    -Wall -o CMakeFiles/cmTC_6d070.dir/src.c.o -c /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-TGDvh6/src.c
+        Linking C executable cmTC_6d070
+        /opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d070.dir/link.txt --verbose=1
+        /usr/bin/mips64el-linux-gnuabi64-gcc  -std=c89 -pedantic  -rdynamic CMakeFiles/cmTC_6d070.dir/src.c.o -o cmTC_6d070
+        make[1]: Leaving directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-TGDvh6'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:103 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wextra"
+    directories:
+      source: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-B8vKRY"
+      binary: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-B8vKRY"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wextra"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-B8vKRY'
+        
+        Run Build Command(s): /opt/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_936c2/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_936c2.dir/build.make CMakeFiles/cmTC_936c2.dir/build
+        make[1]: Entering directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-B8vKRY'
+        Building C object CMakeFiles/cmTC_936c2.dir/src.c.o
+        /usr/bin/mips64el-linux-gnuabi64-gcc -DFLAG_SUPPORTED_Wextra  -std=c89 -pedantic -Wall    -Wextra -o CMakeFiles/cmTC_936c2.dir/src.c.o -c /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-B8vKRY/src.c
+        Linking C executable cmTC_936c2
+        /opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_936c2.dir/link.txt --verbose=1
+        /usr/bin/mips64el-linux-gnuabi64-gcc  -std=c89 -pedantic -Wall  -rdynamic CMakeFiles/cmTC_936c2.dir/src.c.o -o cmTC_936c2
+        make[1]: Leaving directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-B8vKRY'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:103 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Werror"
+    directories:
+      source: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-ozQhIR"
+      binary: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-ozQhIR"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Werror"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-ozQhIR'
+        
+        Run Build Command(s): /opt/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_25d62/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_25d62.dir/build.make CMakeFiles/cmTC_25d62.dir/build
+        make[1]: Entering directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-ozQhIR'
+        Building C object CMakeFiles/cmTC_25d62.dir/src.c.o
+        /usr/bin/mips64el-linux-gnuabi64-gcc -DFLAG_SUPPORTED_Werror  -std=c89 -pedantic -Wall -Wextra    -Werror -o CMakeFiles/cmTC_25d62.dir/src.c.o -c /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-ozQhIR/src.c
+        Linking C executable cmTC_25d62
+        /opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25d62.dir/link.txt --verbose=1
+        /usr/bin/mips64el-linux-gnuabi64-gcc  -std=c89 -pedantic -Wall -Wextra  -rdynamic CMakeFiles/cmTC_25d62.dir/src.c.o -o cmTC_25d62
+        make[1]: Leaving directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-ozQhIR'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:103 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wstrictprototypes"
+    directories:
+      source: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-rr9hNK"
+      binary: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-rr9hNK"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wstrictprototypes"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-rr9hNK'
+        
+        Run Build Command(s): /opt/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d627f/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_d627f.dir/build.make CMakeFiles/cmTC_d627f.dir/build
+        make[1]: Entering directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-rr9hNK'
+        Building C object CMakeFiles/cmTC_d627f.dir/src.c.o
+        /usr/bin/mips64el-linux-gnuabi64-gcc -DFLAG_SUPPORTED_Wstrictprototypes  -std=c89 -pedantic -Wall -Wextra -Werror    -Wstrict-prototypes -o CMakeFiles/cmTC_d627f.dir/src.c.o -c /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-rr9hNK/src.c
+        Linking C executable cmTC_d627f
+        /opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d627f.dir/link.txt --verbose=1
+        /usr/bin/mips64el-linux-gnuabi64-gcc  -std=c89 -pedantic -Wall -Wextra -Werror  -rdynamic CMakeFiles/cmTC_d627f.dir/src.c.o -o cmTC_d627f
+        make[1]: Leaving directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-rr9hNK'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:103 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wwritestrings"
+    directories:
+      source: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-GDUv6D"
+      binary: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-GDUv6D"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wwritestrings"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-GDUv6D'
+        
+        Run Build Command(s): /opt/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2ce36/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_2ce36.dir/build.make CMakeFiles/cmTC_2ce36.dir/build
+        make[1]: Entering directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-GDUv6D'
+        Building C object CMakeFiles/cmTC_2ce36.dir/src.c.o
+        /usr/bin/mips64el-linux-gnuabi64-gcc -DFLAG_SUPPORTED_Wwritestrings  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes    -Wwrite-strings -o CMakeFiles/cmTC_2ce36.dir/src.c.o -c /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-GDUv6D/src.c
+        Linking C executable cmTC_2ce36
+        /opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ce36.dir/link.txt --verbose=1
+        /usr/bin/mips64el-linux-gnuabi64-gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes  -rdynamic CMakeFiles/cmTC_2ce36.dir/src.c.o -o cmTC_2ce36
+        make[1]: Leaving directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-GDUv6D'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:103 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wshadow"
+    directories:
+      source: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-bdRFDx"
+      binary: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-bdRFDx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wshadow"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-bdRFDx'
+        
+        Run Build Command(s): /opt/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_234ec/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_234ec.dir/build.make CMakeFiles/cmTC_234ec.dir/build
+        make[1]: Entering directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-bdRFDx'
+        Building C object CMakeFiles/cmTC_234ec.dir/src.c.o
+        /usr/bin/mips64el-linux-gnuabi64-gcc -DFLAG_SUPPORTED_Wshadow  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings    -Wshadow -o CMakeFiles/cmTC_234ec.dir/src.c.o -c /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-bdRFDx/src.c
+        Linking C executable cmTC_234ec
+        /opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_234ec.dir/link.txt --verbose=1
+        /usr/bin/mips64el-linux-gnuabi64-gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings  -rdynamic CMakeFiles/cmTC_234ec.dir/src.c.o -o cmTC_234ec
+        make[1]: Leaving directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-bdRFDx'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:103 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Winitself"
+    directories:
+      source: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-ymPhqr"
+      binary: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-ymPhqr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Winitself"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-ymPhqr'
+        
+        Run Build Command(s): /opt/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3c8b3/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_3c8b3.dir/build.make CMakeFiles/cmTC_3c8b3.dir/build
+        make[1]: Entering directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-ymPhqr'
+        Building C object CMakeFiles/cmTC_3c8b3.dir/src.c.o
+        /usr/bin/mips64el-linux-gnuabi64-gcc -DFLAG_SUPPORTED_Winitself  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow    -Winit-self -o CMakeFiles/cmTC_3c8b3.dir/src.c.o -c /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-ymPhqr/src.c
+        Linking C executable cmTC_3c8b3
+        /opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c8b3.dir/link.txt --verbose=1
+        /usr/bin/mips64el-linux-gnuabi64-gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow  -rdynamic CMakeFiles/cmTC_3c8b3.dir/src.c.o -o cmTC_3c8b3
+        make[1]: Leaving directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-ymPhqr'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:103 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wcastalign"
+    directories:
+      source: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-8mLFrl"
+      binary: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-8mLFrl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wcastalign"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-8mLFrl'
+        
+        Run Build Command(s): /opt/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5aea1/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_5aea1.dir/build.make CMakeFiles/cmTC_5aea1.dir/build
+        make[1]: Entering directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-8mLFrl'
+        Building C object CMakeFiles/cmTC_5aea1.dir/src.c.o
+        /usr/bin/mips64el-linux-gnuabi64-gcc -DFLAG_SUPPORTED_Wcastalign  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self    -Wcast-align -o CMakeFiles/cmTC_5aea1.dir/src.c.o -c /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-8mLFrl/src.c
+        Linking C executable cmTC_5aea1
+        /opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5aea1.dir/link.txt --verbose=1
+        /usr/bin/mips64el-linux-gnuabi64-gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self  -rdynamic CMakeFiles/cmTC_5aea1.dir/src.c.o -o cmTC_5aea1
+        make[1]: Leaving directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-8mLFrl'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:103 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wformat2"
+    directories:
+      source: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-p5z5Gf"
+      binary: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-p5z5Gf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wformat2"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-p5z5Gf'
+        
+        Run Build Command(s): /opt/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ec106/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ec106.dir/build.make CMakeFiles/cmTC_ec106.dir/build
+        make[1]: Entering directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-p5z5Gf'
+        Building C object CMakeFiles/cmTC_ec106.dir/src.c.o
+        /usr/bin/mips64el-linux-gnuabi64-gcc -DFLAG_SUPPORTED_Wformat2  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align    -Wformat=2 -o CMakeFiles/cmTC_ec106.dir/src.c.o -c /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-p5z5Gf/src.c
+        Linking C executable cmTC_ec106
+        /opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec106.dir/link.txt --verbose=1
+        /usr/bin/mips64el-linux-gnuabi64-gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align  -rdynamic CMakeFiles/cmTC_ec106.dir/src.c.o -o cmTC_ec106
+        make[1]: Leaving directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-p5z5Gf'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:103 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wmissingprototypes"
+    directories:
+      source: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-3qEjfa"
+      binary: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-3qEjfa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wmissingprototypes"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-3qEjfa'
+        
+        Run Build Command(s): /opt/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_60558/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_60558.dir/build.make CMakeFiles/cmTC_60558.dir/build
+        make[1]: Entering directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-3qEjfa'
+        Building C object CMakeFiles/cmTC_60558.dir/src.c.o
+        /usr/bin/mips64el-linux-gnuabi64-gcc -DFLAG_SUPPORTED_Wmissingprototypes  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2    -Wmissing-prototypes -o CMakeFiles/cmTC_60558.dir/src.c.o -c /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-3qEjfa/src.c
+        Linking C executable cmTC_60558
+        /opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60558.dir/link.txt --verbose=1
+        /usr/bin/mips64el-linux-gnuabi64-gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2  -rdynamic CMakeFiles/cmTC_60558.dir/src.c.o -o cmTC_60558
+        make[1]: Leaving directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-3qEjfa'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:103 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wstrictoverflow2"
+    directories:
+      source: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-zoYT24"
+      binary: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-zoYT24"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wstrictoverflow2"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-zoYT24'
+        
+        Run Build Command(s): /opt/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8ad0c/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_8ad0c.dir/build.make CMakeFiles/cmTC_8ad0c.dir/build
+        make[1]: Entering directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-zoYT24'
+        Building C object CMakeFiles/cmTC_8ad0c.dir/src.c.o
+        /usr/bin/mips64el-linux-gnuabi64-gcc -DFLAG_SUPPORTED_Wstrictoverflow2  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes    -Wstrict-overflow=2 -o CMakeFiles/cmTC_8ad0c.dir/src.c.o -c /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-zoYT24/src.c
+        Linking C executable cmTC_8ad0c
+        /opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ad0c.dir/link.txt --verbose=1
+        /usr/bin/mips64el-linux-gnuabi64-gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes  -rdynamic CMakeFiles/cmTC_8ad0c.dir/src.c.o -o cmTC_8ad0c
+        make[1]: Leaving directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-zoYT24'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:103 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wcastqual"
+    directories:
+      source: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-GOSD4Z"
+      binary: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-GOSD4Z"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wcastqual"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-GOSD4Z'
+        
+        Run Build Command(s): /opt/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_44ce9/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_44ce9.dir/build.make CMakeFiles/cmTC_44ce9.dir/build
+        make[1]: Entering directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-GOSD4Z'
+        Building C object CMakeFiles/cmTC_44ce9.dir/src.c.o
+        /usr/bin/mips64el-linux-gnuabi64-gcc -DFLAG_SUPPORTED_Wcastqual  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2    -Wcast-qual -o CMakeFiles/cmTC_44ce9.dir/src.c.o -c /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-GOSD4Z/src.c
+        Linking C executable cmTC_44ce9
+        /opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44ce9.dir/link.txt --verbose=1
+        /usr/bin/mips64el-linux-gnuabi64-gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2  -rdynamic CMakeFiles/cmTC_44ce9.dir/src.c.o -o cmTC_44ce9
+        make[1]: Leaving directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-GOSD4Z'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:103 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wundef"
+    directories:
+      source: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-ytCNlV"
+      binary: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-ytCNlV"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wundef"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-ytCNlV'
+        
+        Run Build Command(s): /opt/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_80f8c/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_80f8c.dir/build.make CMakeFiles/cmTC_80f8c.dir/build
+        make[1]: Entering directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-ytCNlV'
+        Building C object CMakeFiles/cmTC_80f8c.dir/src.c.o
+        /usr/bin/mips64el-linux-gnuabi64-gcc -DFLAG_SUPPORTED_Wundef  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual    -Wundef -o CMakeFiles/cmTC_80f8c.dir/src.c.o -c /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-ytCNlV/src.c
+        Linking C executable cmTC_80f8c
+        /opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80f8c.dir/link.txt --verbose=1
+        /usr/bin/mips64el-linux-gnuabi64-gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual  -rdynamic CMakeFiles/cmTC_80f8c.dir/src.c.o -o cmTC_80f8c
+        make[1]: Leaving directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-ytCNlV'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:103 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wswitchdefault"
+    directories:
+      source: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-4VrcTQ"
+      binary: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-4VrcTQ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wswitchdefault"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-4VrcTQ'
+        
+        Run Build Command(s): /opt/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cb574/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_cb574.dir/build.make CMakeFiles/cmTC_cb574.dir/build
+        make[1]: Entering directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-4VrcTQ'
+        Building C object CMakeFiles/cmTC_cb574.dir/src.c.o
+        /usr/bin/mips64el-linux-gnuabi64-gcc -DFLAG_SUPPORTED_Wswitchdefault  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef    -Wswitch-default -o CMakeFiles/cmTC_cb574.dir/src.c.o -c /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-4VrcTQ/src.c
+        Linking C executable cmTC_cb574
+        /opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb574.dir/link.txt --verbose=1
+        /usr/bin/mips64el-linux-gnuabi64-gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef  -rdynamic CMakeFiles/cmTC_cb574.dir/src.c.o -o cmTC_cb574
+        make[1]: Leaving directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-4VrcTQ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:103 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wconversion"
+    directories:
+      source: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-JzRTFM"
+      binary: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-JzRTFM"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wconversion"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-JzRTFM'
+        
+        Run Build Command(s): /opt/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_80ff7/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_80ff7.dir/build.make CMakeFiles/cmTC_80ff7.dir/build
+        make[1]: Entering directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-JzRTFM'
+        Building C object CMakeFiles/cmTC_80ff7.dir/src.c.o
+        /usr/bin/mips64el-linux-gnuabi64-gcc -DFLAG_SUPPORTED_Wconversion  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default    -Wconversion -o CMakeFiles/cmTC_80ff7.dir/src.c.o -c /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-JzRTFM/src.c
+        Linking C executable cmTC_80ff7
+        /opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80ff7.dir/link.txt --verbose=1
+        /usr/bin/mips64el-linux-gnuabi64-gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default  -rdynamic CMakeFiles/cmTC_80ff7.dir/src.c.o -o cmTC_80ff7
+        make[1]: Leaving directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-JzRTFM'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:103 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wccompat"
+    directories:
+      source: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-9QMuHI"
+      binary: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-9QMuHI"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wccompat"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-9QMuHI'
+        
+        Run Build Command(s): /opt/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4cfff/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_4cfff.dir/build.make CMakeFiles/cmTC_4cfff.dir/build
+        make[1]: Entering directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-9QMuHI'
+        Building C object CMakeFiles/cmTC_4cfff.dir/src.c.o
+        /usr/bin/mips64el-linux-gnuabi64-gcc -DFLAG_SUPPORTED_Wccompat  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion    -Wc++-compat -o CMakeFiles/cmTC_4cfff.dir/src.c.o -c /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-9QMuHI/src.c
+        Linking C executable cmTC_4cfff
+        /opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cfff.dir/link.txt --verbose=1
+        /usr/bin/mips64el-linux-gnuabi64-gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion  -rdynamic CMakeFiles/cmTC_4cfff.dir/src.c.o -o cmTC_4cfff
+        make[1]: Leaving directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-9QMuHI'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:103 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_fstackprotectorstrong"
+    directories:
+      source: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-AummYE"
+      binary: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-AummYE"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat"
+    buildResult:
+      variable: "FLAG_SUPPORTED_fstackprotectorstrong"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-AummYE'
+        
+        Run Build Command(s): /opt/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a17a3/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_a17a3.dir/build.make CMakeFiles/cmTC_a17a3.dir/build
+        make[1]: Entering directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-AummYE'
+        Building C object CMakeFiles/cmTC_a17a3.dir/src.c.o
+        /usr/bin/mips64el-linux-gnuabi64-gcc -DFLAG_SUPPORTED_fstackprotectorstrong  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat    -fstack-protector-strong -o CMakeFiles/cmTC_a17a3.dir/src.c.o -c /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-AummYE/src.c
+        Linking C executable cmTC_a17a3
+        /opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a17a3.dir/link.txt --verbose=1
+        /usr/bin/mips64el-linux-gnuabi64-gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat  -rdynamic CMakeFiles/cmTC_a17a3.dir/src.c.o -o cmTC_a17a3
+        make[1]: Leaving directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-AummYE'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:103 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wcomma"
+    directories:
+      source: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-cG1NtB"
+      binary: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-cG1NtB"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wcomma"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-cG1NtB'
+        
+        Run Build Command(s): /opt/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8676c/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_8676c.dir/build.make CMakeFiles/cmTC_8676c.dir/build
+        make[1]: Entering directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-cG1NtB'
+        Building C object CMakeFiles/cmTC_8676c.dir/src.c.o
+        /usr/bin/mips64el-linux-gnuabi64-gcc -DFLAG_SUPPORTED_Wcomma  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong    -Wcomma -o CMakeFiles/cmTC_8676c.dir/src.c.o -c /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-cG1NtB/src.c
+        mips64el-linux-gnuabi64-gcc: error: unrecognized command line option '-Wcomma'
+        CMakeFiles/cmTC_8676c.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_8676c.dir/src.c.o' failed
+        make[1]: *** [CMakeFiles/cmTC_8676c.dir/src.c.o] Error 1
+        make[1]: Leaving directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-cG1NtB'
+        Makefile:127: recipe for target 'cmTC_8676c/fast' failed
+        make: *** [cmTC_8676c/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:103 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wdoublepromotion"
+    directories:
+      source: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-49SR4x"
+      binary: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-49SR4x"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wdoublepromotion"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-49SR4x'
+        
+        Run Build Command(s): /opt/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_87d6f/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_87d6f.dir/build.make CMakeFiles/cmTC_87d6f.dir/build
+        make[1]: Entering directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-49SR4x'
+        Building C object CMakeFiles/cmTC_87d6f.dir/src.c.o
+        /usr/bin/mips64el-linux-gnuabi64-gcc -DFLAG_SUPPORTED_Wdoublepromotion  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong    -Wdouble-promotion -o CMakeFiles/cmTC_87d6f.dir/src.c.o -c /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-49SR4x/src.c
+        Linking C executable cmTC_87d6f
+        /opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87d6f.dir/link.txt --verbose=1
+        /usr/bin/mips64el-linux-gnuabi64-gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong  -rdynamic CMakeFiles/cmTC_87d6f.dir/src.c.o -o cmTC_87d6f
+        make[1]: Leaving directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-49SR4x'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:103 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wparentheses"
+    directories:
+      source: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-Lwd2Uu"
+      binary: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-Lwd2Uu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wparentheses"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-Lwd2Uu'
+        
+        Run Build Command(s): /opt/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3eb7f/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_3eb7f.dir/build.make CMakeFiles/cmTC_3eb7f.dir/build
+        make[1]: Entering directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-Lwd2Uu'
+        Building C object CMakeFiles/cmTC_3eb7f.dir/src.c.o
+        /usr/bin/mips64el-linux-gnuabi64-gcc -DFLAG_SUPPORTED_Wparentheses  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion    -Wparentheses -o CMakeFiles/cmTC_3eb7f.dir/src.c.o -c /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-Lwd2Uu/src.c
+        Linking C executable cmTC_3eb7f
+        /opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3eb7f.dir/link.txt --verbose=1
+        /usr/bin/mips64el-linux-gnuabi64-gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion  -rdynamic CMakeFiles/cmTC_3eb7f.dir/src.c.o -o cmTC_3eb7f
+        make[1]: Leaving directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-Lwd2Uu'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:103 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wformatoverflow"
+    directories:
+      source: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-JoE40r"
+      binary: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-JoE40r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wformatoverflow"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-JoE40r'
+        
+        Run Build Command(s): /opt/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_65b03/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_65b03.dir/build.make CMakeFiles/cmTC_65b03.dir/build
+        make[1]: Entering directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-JoE40r'
+        Building C object CMakeFiles/cmTC_65b03.dir/src.c.o
+        /usr/bin/mips64el-linux-gnuabi64-gcc -DFLAG_SUPPORTED_Wformatoverflow  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses    -Wformat-overflow -o CMakeFiles/cmTC_65b03.dir/src.c.o -c /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-JoE40r/src.c
+        mips64el-linux-gnuabi64-gcc: error: unrecognized command line option '-Wformat-overflow'
+        CMakeFiles/cmTC_65b03.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_65b03.dir/src.c.o' failed
+        make[1]: *** [CMakeFiles/cmTC_65b03.dir/src.c.o] Error 1
+        make[1]: Leaving directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-JoE40r'
+        Makefile:127: recipe for target 'cmTC_65b03/fast' failed
+        make: *** [cmTC_65b03/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:103 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wunusedmacros"
+    directories:
+      source: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-FtpEcp"
+      binary: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-FtpEcp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wunusedmacros"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-FtpEcp'
+        
+        Run Build Command(s): /opt/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4d3e8/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_4d3e8.dir/build.make CMakeFiles/cmTC_4d3e8.dir/build
+        make[1]: Entering directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-FtpEcp'
+        Building C object CMakeFiles/cmTC_4d3e8.dir/src.c.o
+        /usr/bin/mips64el-linux-gnuabi64-gcc -DFLAG_SUPPORTED_Wunusedmacros  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses    -Wunused-macros -o CMakeFiles/cmTC_4d3e8.dir/src.c.o -c /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-FtpEcp/src.c
+        Linking C executable cmTC_4d3e8
+        /opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d3e8.dir/link.txt --verbose=1
+        /usr/bin/mips64el-linux-gnuabi64-gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses  -rdynamic CMakeFiles/cmTC_4d3e8.dir/src.c.o -o cmTC_4d3e8
+        make[1]: Leaving directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-FtpEcp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:103 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wmissingvariabledeclarations"
+    directories:
+      source: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-8SgyDm"
+      binary: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-8SgyDm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wunused-macros"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wmissingvariabledeclarations"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-8SgyDm'
+        
+        Run Build Command(s): /opt/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2e0f5/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_2e0f5.dir/build.make CMakeFiles/cmTC_2e0f5.dir/build
+        make[1]: Entering directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-8SgyDm'
+        Building C object CMakeFiles/cmTC_2e0f5.dir/src.c.o
+        /usr/bin/mips64el-linux-gnuabi64-gcc -DFLAG_SUPPORTED_Wmissingvariabledeclarations  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wunused-macros    -Wmissing-variable-declarations -o CMakeFiles/cmTC_2e0f5.dir/src.c.o -c /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-8SgyDm/src.c
+        mips64el-linux-gnuabi64-gcc: error: unrecognized command line option '-Wmissing-variable-declarations'
+        CMakeFiles/cmTC_2e0f5.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_2e0f5.dir/src.c.o' failed
+        make[1]: *** [CMakeFiles/cmTC_2e0f5.dir/src.c.o] Error 1
+        make[1]: Leaving directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-8SgyDm'
+        Makefile:127: recipe for target 'cmTC_2e0f5/fast' failed
+        make: *** [cmTC_2e0f5/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:103 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wusedbutmarkedunused"
+    directories:
+      source: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-kqb89j"
+      binary: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-kqb89j"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wunused-macros"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wusedbutmarkedunused"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-kqb89j'
+        
+        Run Build Command(s): /opt/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5ac26/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_5ac26.dir/build.make CMakeFiles/cmTC_5ac26.dir/build
+        make[1]: Entering directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-kqb89j'
+        Building C object CMakeFiles/cmTC_5ac26.dir/src.c.o
+        /usr/bin/mips64el-linux-gnuabi64-gcc -DFLAG_SUPPORTED_Wusedbutmarkedunused  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wunused-macros    -Wused-but-marked-unused -o CMakeFiles/cmTC_5ac26.dir/src.c.o -c /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-kqb89j/src.c
+        mips64el-linux-gnuabi64-gcc: error: unrecognized command line option '-Wused-but-marked-unused'
+        CMakeFiles/cmTC_5ac26.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_5ac26.dir/src.c.o' failed
+        make[1]: *** [CMakeFiles/cmTC_5ac26.dir/src.c.o] Error 1
+        make[1]: Leaving directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-kqb89j'
+        Makefile:127: recipe for target 'cmTC_5ac26/fast' failed
+        make: *** [cmTC_5ac26/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:103 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wswitchenum"
+    directories:
+      source: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-GjZzMh"
+      binary: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-GjZzMh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wunused-macros"
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wswitchenum"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-GjZzMh'
+        
+        Run Build Command(s): /opt/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d3366/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_d3366.dir/build.make CMakeFiles/cmTC_d3366.dir/build
+        make[1]: Entering directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-GjZzMh'
+        Building C object CMakeFiles/cmTC_d3366.dir/src.c.o
+        /usr/bin/mips64el-linux-gnuabi64-gcc -DFLAG_SUPPORTED_Wswitchenum  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wunused-macros    -Wswitch-enum -o CMakeFiles/cmTC_d3366.dir/src.c.o -c /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-GjZzMh/src.c
+        Linking C executable cmTC_d3366
+        /opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3366.dir/link.txt --verbose=1
+        /usr/bin/mips64el-linux-gnuabi64-gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wunused-macros  -rdynamic CMakeFiles/cmTC_d3366.dir/src.c.o -o cmTC_d3366
+        make[1]: Leaving directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-GjZzMh'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/cmake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/cmake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:103 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_fvisibilityhidden"
+    directories:
+      source: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-LPj9Ef"
+      binary: "/home/tq/\u684c\u9762/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-LPj9Ef"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wunused-macros -Wswitch-enum"
+    buildResult:
+      variable: "FLAG_SUPPORTED_fvisibilityhidden"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-LPj9Ef'
+        
+        Run Build Command(s): /opt/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_077ca/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_077ca.dir/build.make CMakeFiles/cmTC_077ca.dir/build
+        make[1]: Entering directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-LPj9Ef'
+        Building C object CMakeFiles/cmTC_077ca.dir/src.c.o
+        /usr/bin/mips64el-linux-gnuabi64-gcc -DFLAG_SUPPORTED_fvisibilityhidden  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wunused-macros -Wswitch-enum    -fvisibility=hidden -o CMakeFiles/cmTC_077ca.dir/src.c.o -c /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-LPj9Ef/src.c
+        Linking C executable cmTC_077ca
+        /opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_077ca.dir/link.txt --verbose=1
+        /usr/bin/mips64el-linux-gnuabi64-gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wunused-macros -Wswitch-enum  -rdynamic CMakeFiles/cmTC_077ca.dir/src.c.o -o cmTC_077ca
+        make[1]: Leaving directory '/home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/CMakeFiles/CMakeScratch/TryCompile-LPj9Ef'
+        
+      exitCode: 0
+...

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20241120-0228-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.5.1"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="tq"
+	OSRelease="4.4.131-20210120.kylin.x86-generic"
+	OSVersion="#kylin-KylinOS SMP Wed Jan 20 02:56:13 UTC 2021"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="62"
+	ProcessorCacheSize="20480"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="0"
+	TotalPhysicalMemory="7963"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2594.11"
+	>
+	<Testing>
+		<StartDateTime>Nov 20 10:28 CST</StartDateTime>
+		<StartTestTime>1732069690</StartTestTime>
+		<TestList>
+			<Test>./cJSON_test</Test>
+			<Test>./tests/parse_examples</Test>
+			<Test>./tests/parse_number</Test>
+			<Test>./tests/parse_hex4</Test>
+			<Test>./tests/parse_string</Test>
+			<Test>./tests/parse_array</Test>
+			<Test>./tests/parse_object</Test>
+			<Test>./tests/parse_value</Test>
+			<Test>./tests/print_string</Test>
+			<Test>./tests/print_number</Test>
+			<Test>./tests/print_array</Test>
+			<Test>./tests/print_object</Test>
+			<Test>./tests/print_value</Test>
+			<Test>./tests/misc_tests</Test>
+			<Test>./tests/parse_with_opts</Test>
+			<Test>./tests/compare_tests</Test>
+			<Test>./tests/cjson_add</Test>
+			<Test>./tests/readme_examples</Test>
+			<Test>./tests/minify_tests</Test>
+		</TestList>
+		<Test Status="notrun">
+			<Name>cJSON_test</Name>
+			<Path>.</Path>
+			<FullName>./cJSON_test</FullName>
+			<FullCommandLine></FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value></Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Unable to find executable: /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/cJSON_test</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="notrun">
+			<Name>parse_examples</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/parse_examples</FullName>
+			<FullCommandLine></FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value></Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Unable to find executable: ./parse_examples</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="notrun">
+			<Name>parse_number</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/parse_number</FullName>
+			<FullCommandLine></FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value></Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Unable to find executable: ./parse_number</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="notrun">
+			<Name>parse_hex4</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/parse_hex4</FullName>
+			<FullCommandLine></FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value></Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Unable to find executable: ./parse_hex4</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="notrun">
+			<Name>parse_string</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/parse_string</FullName>
+			<FullCommandLine></FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value></Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Unable to find executable: ./parse_string</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="notrun">
+			<Name>parse_array</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/parse_array</FullName>
+			<FullCommandLine></FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value></Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Unable to find executable: ./parse_array</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="notrun">
+			<Name>parse_object</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/parse_object</FullName>
+			<FullCommandLine></FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value></Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Unable to find executable: ./parse_object</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="notrun">
+			<Name>parse_value</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/parse_value</FullName>
+			<FullCommandLine></FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value></Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Unable to find executable: ./parse_value</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="notrun">
+			<Name>print_string</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/print_string</FullName>
+			<FullCommandLine></FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value></Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Unable to find executable: ./print_string</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="notrun">
+			<Name>print_number</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/print_number</FullName>
+			<FullCommandLine></FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value></Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Unable to find executable: ./print_number</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="notrun">
+			<Name>print_array</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/print_array</FullName>
+			<FullCommandLine></FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value></Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Unable to find executable: ./print_array</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="notrun">
+			<Name>print_object</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/print_object</FullName>
+			<FullCommandLine></FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value></Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Unable to find executable: ./print_object</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="notrun">
+			<Name>print_value</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/print_value</FullName>
+			<FullCommandLine></FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value></Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Unable to find executable: ./print_value</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="notrun">
+			<Name>misc_tests</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/misc_tests</FullName>
+			<FullCommandLine></FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value></Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Unable to find executable: ./misc_tests</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="notrun">
+			<Name>parse_with_opts</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/parse_with_opts</FullName>
+			<FullCommandLine></FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value></Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Unable to find executable: ./parse_with_opts</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="notrun">
+			<Name>compare_tests</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/compare_tests</FullName>
+			<FullCommandLine></FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value></Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Unable to find executable: ./compare_tests</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="notrun">
+			<Name>cjson_add</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/cjson_add</FullName>
+			<FullCommandLine></FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value></Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Unable to find executable: ./cjson_add</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="notrun">
+			<Name>readme_examples</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/readme_examples</FullName>
+			<FullCommandLine></FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value></Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Unable to find executable: ./readme_examples</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="notrun">
+			<Name>minify_tests</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/minify_tests</FullName>
+			<FullCommandLine></FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value></Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Unable to find executable: ./minify_tests</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Nov 20 10:28 CST</EndDateTime>
+		<EndTestTime>1732069690</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

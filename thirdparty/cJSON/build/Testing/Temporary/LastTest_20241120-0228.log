@@ -1,0 +1,307 @@
+Start testing: Nov 20 10:28 CST
+----------------------------------------------------------
+Unable to find executable: /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/cJSON_test
+1/19 Testing: cJSON_test
+1/19 Test: cJSON_test
+Command: ""
+Directory: /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build
+"cJSON_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"cJSON_test" end time: Nov 20 10:28 CST
+"cJSON_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: ./parse_examples
+2/19 Testing: parse_examples
+2/19 Test: parse_examples
+Command: ""
+Directory: /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/tests
+"parse_examples" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"parse_examples" end time: Nov 20 10:28 CST
+"parse_examples" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: ./parse_number
+3/19 Testing: parse_number
+3/19 Test: parse_number
+Command: ""
+Directory: /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/tests
+"parse_number" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"parse_number" end time: Nov 20 10:28 CST
+"parse_number" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: ./parse_hex4
+4/19 Testing: parse_hex4
+4/19 Test: parse_hex4
+Command: ""
+Directory: /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/tests
+"parse_hex4" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"parse_hex4" end time: Nov 20 10:28 CST
+"parse_hex4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: ./parse_string
+5/19 Testing: parse_string
+5/19 Test: parse_string
+Command: ""
+Directory: /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/tests
+"parse_string" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"parse_string" end time: Nov 20 10:28 CST
+"parse_string" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: ./parse_array
+6/19 Testing: parse_array
+6/19 Test: parse_array
+Command: ""
+Directory: /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/tests
+"parse_array" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"parse_array" end time: Nov 20 10:28 CST
+"parse_array" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: ./parse_object
+7/19 Testing: parse_object
+7/19 Test: parse_object
+Command: ""
+Directory: /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/tests
+"parse_object" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"parse_object" end time: Nov 20 10:28 CST
+"parse_object" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: ./parse_value
+8/19 Testing: parse_value
+8/19 Test: parse_value
+Command: ""
+Directory: /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/tests
+"parse_value" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"parse_value" end time: Nov 20 10:28 CST
+"parse_value" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: ./print_string
+9/19 Testing: print_string
+9/19 Test: print_string
+Command: ""
+Directory: /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/tests
+"print_string" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"print_string" end time: Nov 20 10:28 CST
+"print_string" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: ./print_number
+10/19 Testing: print_number
+10/19 Test: print_number
+Command: ""
+Directory: /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/tests
+"print_number" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"print_number" end time: Nov 20 10:28 CST
+"print_number" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: ./print_array
+11/19 Testing: print_array
+11/19 Test: print_array
+Command: ""
+Directory: /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/tests
+"print_array" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"print_array" end time: Nov 20 10:28 CST
+"print_array" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: ./print_object
+12/19 Testing: print_object
+12/19 Test: print_object
+Command: ""
+Directory: /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/tests
+"print_object" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"print_object" end time: Nov 20 10:28 CST
+"print_object" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: ./print_value
+13/19 Testing: print_value
+13/19 Test: print_value
+Command: ""
+Directory: /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/tests
+"print_value" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"print_value" end time: Nov 20 10:28 CST
+"print_value" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: ./misc_tests
+14/19 Testing: misc_tests
+14/19 Test: misc_tests
+Command: ""
+Directory: /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/tests
+"misc_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"misc_tests" end time: Nov 20 10:28 CST
+"misc_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: ./parse_with_opts
+15/19 Testing: parse_with_opts
+15/19 Test: parse_with_opts
+Command: ""
+Directory: /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/tests
+"parse_with_opts" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"parse_with_opts" end time: Nov 20 10:28 CST
+"parse_with_opts" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: ./compare_tests
+16/19 Testing: compare_tests
+16/19 Test: compare_tests
+Command: ""
+Directory: /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/tests
+"compare_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"compare_tests" end time: Nov 20 10:28 CST
+"compare_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: ./cjson_add
+17/19 Testing: cjson_add
+17/19 Test: cjson_add
+Command: ""
+Directory: /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/tests
+"cjson_add" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"cjson_add" end time: Nov 20 10:28 CST
+"cjson_add" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: ./readme_examples
+18/19 Testing: readme_examples
+18/19 Test: readme_examples
+Command: ""
+Directory: /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/tests
+"readme_examples" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"readme_examples" end time: Nov 20 10:28 CST
+"readme_examples" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: ./minify_tests
+19/19 Testing: minify_tests
+19/19 Test: minify_tests
+Command: ""
+Directory: /home/tq/桌面/net_wipe_network/net_wipe/thirdparty/cJSON/build/tests
+"minify_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"minify_tests" end time: Nov 20 10:28 CST
+"minify_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 20 10:28 CST

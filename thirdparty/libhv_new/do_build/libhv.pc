@@ -1,0 +1,12 @@
+prefix=/home/tq/桌面/net_wipe_network/net_wipe/release/x86_64/kylinV10
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libhv
+Version: 1.3.1
+Description: The network library
+Requires:
+Libs: -L${libdir} -lhv_static
+Libs.private: pthread;m;dl;rt;stdc++     
+Cflags: -I${includedir} 
