@@ -1,5 +1,4 @@
-#忽略第三库编译缓存
 thirdparty/cJSON/do_build/
-
 thirdparty/libhv_new/do_build/
-
+src_gui/build/
+src_server/build/
