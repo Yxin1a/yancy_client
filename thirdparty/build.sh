@@ -3,10 +3,7 @@
 ORIGIN_DIR=$PWD
 CONFIG_SHELL="build.sh"
 PLATFORM=$(uname -m)
-VAR_OS=$(< /etc/os-release grep -w ID | cut -d '=' -f 2 | sed 's/["]//g')
-VAR_OS_VER=$(< /etc/os-release grep -w VERSION_ID | cut -d '=' -f 2 | sed 's/["]//g' | sed 's/^v/V/')
-OS=${VAR_OS}${VAR_OS_VER}
-PREFIX_DIR=$PWD/../release/$PLATFORM/$OS
+PREFIX_DIR=$PWD/../release/$PLATFORM
 
 # 1. 创建临时构建目录
 mkdir -p $PWD/cJSON/do_build
@@ -19,7 +16,7 @@ function compile_opensource_cmake(){
 if [ -d $ORIGIN_DIR/$opensource_name/do_build ]; then
 	cd $ORIGIN_DIR/$opensource_name/do_build && rm -fr *
 	cp ../$CONFIG_SHELL .
-	./$CONFIG_SHELL $PLATFORM $PREFIX_DIR
+	./$CONFIG_SHELL $PREFIX_DIR
 else
 	echo -e "No $opensource_name"
 fi
