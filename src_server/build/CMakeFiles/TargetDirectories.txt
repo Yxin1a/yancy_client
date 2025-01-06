@@ -1,6 +1,0 @@
-/home/tq/桌面/yancy/src_server/build/CMakeFiles/src_server.dir
-/home/tq/桌面/yancy/src_server/build/CMakeFiles/test.dir
-/home/tq/桌面/yancy/src_server/build/CMakeFiles/test_ipc_server.dir
-/home/tq/桌面/yancy/src_server/build/CMakeFiles/server.dir
-/home/tq/桌面/yancy/src_server/build/CMakeFiles/edit_cache.dir
-/home/tq/桌面/yancy/src_server/build/CMakeFiles/rebuild_cache.dir

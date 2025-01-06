@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC  -rdynamic -O0 -ggdb -std=c++17 -Wall -Wno-deprecated -Wno-unused-function -Wno-builtin-macro-redefined -shared -Wl,-soname,libsrc_server.so -o /home/tq/桌面/yancy/src_server/lib/libsrc_server.so CMakeFiles/src_server.dir/IPC/ipc_server.o CMakeFiles/src_server.dir/IPC/ipc_protocol.o   -L/usr/local/lib  -L../release/x86_64/lib
